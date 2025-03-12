@@ -33,17 +33,17 @@ pipx install uv
 ## Step 2: Create the MCP Directory Structure
 Run the following commands in **PowerShell**:
 ```powershell
-mkdir C:\path\to\mcp\servers\terminal_server
+mkdir D:\path\to\mcp\servers\terminal_server
 mkdir $env:USERPROFILE\mcp\workspace
 ```
-- `C:\path\to\mcp\servers\terminal_server`: Stores all MCP servers.
+- `D:\path\to\mcp\servers\terminal_server`: Stores all MCP servers.
 - `$env:USERPROFILE\mcp\workspace`: Dedicated workspace directory.
 
 ---
 
 ## Step 3: Set Up a Python Project
 ```powershell
-cd C:\path\to\mcp\servers\terminal_server
+cd D:\path\to\mcp\servers\terminal_server
 uv init
 ```
 This initializes a Python project inside `terminal_server`.
